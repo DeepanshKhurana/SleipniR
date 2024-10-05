@@ -1,6 +1,6 @@
 Package: SleipniR
 Title: API Utils for the Hrafnagud suite of apps
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Deepansh", "Khurana", , "deepanshkhurana@outlook.com", role = c("aut", "cre"))
 Description: API Utils for the Hrafnagud suite of apps to maintain consistency across applications.

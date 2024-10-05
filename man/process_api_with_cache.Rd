@@ -10,7 +10,7 @@ process_api_with_cache(endpoint)
 \item{endpoint}{The endpoint to process.}
 }
 \value{
-The response from the API.
+A list with the response and the status of the cache.
 }
 \description{
 Process an API request with cache.
