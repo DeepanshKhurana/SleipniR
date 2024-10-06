@@ -4,7 +4,7 @@
 \alias{process_api_with_cache}
 \title{Process an API request with cache.}
 \usage{
-process_api_with_cache(endpoint)
+process_api_with_cache(endpoint, force_refresh = FALSE)
 }
 \arguments{
 \item{endpoint}{The endpoint to process.}

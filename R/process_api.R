@@ -2,7 +2,6 @@
 #' @param endpoint The endpoint to process.
 #' @param cached Whether to use the cache or not.
 #' @return The response from the API.
-#' @export
 process_api <- function(
   endpoint = NULL,
   cached = FALSE
