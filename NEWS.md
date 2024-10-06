@@ -5,4 +5,3 @@
 * Improve logic for `process_api_with_cache`; deprecate `process_api`
 * Add and export `process_api_with_cache_tibble`
 * Change order for `process_api_with_cache`
- 

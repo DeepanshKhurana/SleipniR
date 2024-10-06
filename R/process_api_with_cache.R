@@ -8,10 +8,10 @@ process_api_with_cache <- function(
   force_refresh = FALSE
 ) {
   cached_status <- get_cache_status(endpoint)$cron_status
-  if (cached_status %in% "red" || force_refresh) {
+  if (force_refresh) {
     cached_status <- "green"
     response <- process_api(endpoint, cached = FALSE)
-  } else if (cached_status %in% c("yellow", "green")) {
+  } else if (cached_status %in% c("red", "yellow", "green")) {
     response <- process_api(endpoint, cached = TRUE)
   } else {
     stop("Invalid cache status in process_api_with_cache")
