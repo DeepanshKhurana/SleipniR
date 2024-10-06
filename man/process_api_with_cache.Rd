@@ -8,6 +8,8 @@ process_api_with_cache(endpoint, force_refresh = FALSE)
 }
 \arguments{
 \item{endpoint}{The endpoint to process.}
+
+\item{force_refresh}{Whether to force a refresh of the cache.}
 }
 \value{
 A list with the response and the status of the cache.

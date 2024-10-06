@@ -1,4 +1,7 @@
 library(checkmate)
+library(dplyr)
 library(devtools)
 library(glue)
 library(httr2)
+library(lintr)
+library(tibble)

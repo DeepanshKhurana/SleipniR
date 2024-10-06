@@ -1,5 +1,6 @@
 #' Process an API request with cache.
 #' @param endpoint The endpoint to process.
+#' @param force_refresh Whether to force a refresh of the cache.
 #' @return A list with the response and the status of the cache.
 #' @export
 process_api_with_cache <- function(
